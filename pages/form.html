@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Açaí do Rosa</title>
+  <link rel="shortcut icon" href="/files/logo-head.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/style/style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md">
+      <div class="container-fluid">
+        <div class="header-image">
+          <a class="navbar-brand" href="/index.html"><img src="/files/logo-head.png" alt=""></a>
+        </div>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav gap-3">
+            <a class="nav-link text-light" href="/index.html">Home</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Peça aqui!
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item text-light" href="acai.html">Açaí Tradicional</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-light" href="cupuacu.html">Açaí com Cupuaçu</a></li>
+              </ul>
+            </li>
+            <a class="nav-link text-light" href="about.html">Desenvolvedor</a>
+            <a class="nav-link text-light" style="text-decoration: underline;" href="#">Feedback</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="contato">
+      <div class="contact m-auto p-5">
+        <div class="form-container p-md-5 m-auto" style="max-width: 600px;">
+          <h1 class="text-center text-light">Feedback</h1>
+          <div class="form">
+            <!-- Usando https://www.staticforms.xyz/ para criar o formulário -->
+            <form action="https://api.staticforms.xyz/submit" method="post" class="row m-auto">
+              <label for="name">Nome</label>
+              <input type="text" name="name" id="name" placeholder="Digite seu nome" autocomplete="off" required>
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="Digite seu email" autocomplete="off" required>
+              <label for="message">Mensagem</label>
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="O que tem a nos dizer?"
+                required></textarea>
+              <button type="submit">ENVIAR</button>
+
+              <input type="hidden" name="accessKey" value="8308bf71-05b9-410d-9823-4c0a9c226dab">
+              <input type="hidden" name="redirectTo" value="https://acaidorosa.vercel.app/pages/obrigado.html">
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="w-100">
+    <div class="container pb-5 row m-auto align-items-center text-center gy-5">
+      <div class="image col-lg-4">
+        <img src="/files/logo-head.png" alt="Logo Açaí do Rosa">
+      </div>
+      <div class="newslatter col-lg-4">
+        <form action="" method="" class="align-content-center m-auto row">
+          <p for="" class="fs-3 text-light fw-bold col-12">newslatter</p>
+          <input type="email" name="" id="" placeholder="Seu melhor Email" required class="col-sm-8">
+          <button type="submit" class="col-sm-4">Cadastrar</button>
+        </form>
+      </div>
+      <div class="redes col-lg-4">
+        <a href="https://wa.me/61996531102" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.instagram.com/rosadavi_/" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-twitter-x"></i></a>
+        <a href="https://www.linkedin.com/in/davi-gustavo-rosa-da-silva-148520284/" target="_blank"><i
+            class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/rosadavi" target="_blank"><i class="bi bi-github"></i></a>
+      </div>
+    </div>
+    <hr class="text-light">
+    <div class="author d-flex justify-content-between px-5 text-light row w-100 text-center">
+      <p class="col-md-6">AÇAÍ DO ROSA © 2023 - TODOS OS DIREITOS RESERVADOS.</p>
+      <p class="col-md-6">DESENVOLVIDO POR <a href="https://github.com/rosadavi" target="_blank">DAVI ROSA</a></p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

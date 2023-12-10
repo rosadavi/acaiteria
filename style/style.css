@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+:root {
+    --color1: #A692E1;
+    --color2: #714DDC;
+    --color3: #563BA8;
+    --color4: #2F205C;
+    --color5: #443C5C;
+    --colorbranca: white;
+
+    --font-text: 'Mooli', sans-serif;
+}
+
+header {
+    background-color: var(--color3);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.375);
+}
+
+header nav {
+    font-size: 1.5rem;
+    color: var(--colorbranca);
+}
+
+header .navbar-nav {
+    padding-left: 20px;
+}
+
+.header-image {
+    width: 75px;
+}
+
+header img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.dropdown-menu {
+    background-color: var(--color3);
+}
+
+.dropdown-menu a:hover {
+    background-color: var(--color3);
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 91px;
+    background-color: var(--color1);;
+}
+
+.banner img{
+    height: 95vh;
+    object-fit: cover;
+}
+
+.text {
+    font-family: var(--font-text);
+    line-height: 50px;
+}
+
+.text strong {
+    background-color: var(--color3);
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+.infos h1 {
+    width: 75%;
+    margin: auto;
+    color: var(--colorbranca);
+    text-transform: uppercase;
+    font-family: var(--font-text);
+}
+
+.infos h1 strong {
+    background-color: var(--color3);
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+.infos .imagem {
+    overflow: hidden;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.infos img{
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    transition: ease-in-out 0.3s;
+    border-radius: 10px;
+}
+
+.infos img:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+footer {
+    background-color: var(--color3);    
+}
+
+footer img {
+    width: 30%;
+    border-radius: 50%;
+}
+
+footer form {
+    width: 100%;
+}
+
+footer form input {
+    padding-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+footer form button {
+    padding: 5px 0px;
+    color: var(--colorbranca);
+    background-color: var(--color4);
+    border: 2px solid transparent;
+    transition: ease-in-out 0.3s;
+}
+
+footer form button:hover {
+    background-color: transparent;
+    border: 2px solid var(--color4);
+}
+
+footer .redes {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+}
+
+footer .redes a {
+    font-size: 2rem;
+    color: var(--colorbranca);
+}
+
+footer .author a {
+    background-color: var(--color4);
+    padding: 2px 5px;
+    color: var(--colorbranca);
+    text-decoration: none;
+}
+
+footer .author a:hover {
+    text-decoration: underline;
+}
+
+/* Criando a página do açaí e cupuaçu */
+
+.produtos {
+    font-family: var(--font-text);
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+.image {
+    border-radius: 10px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.produtos img {
+    transition: ease-in-out 0.3s;
+    height: 250px;
+}
+
+.card-body {
+    position: relative;
+    height: 520px;
+}
+
+.card-body p {
+    height: 30px;
+}
+
+.card-body button {
+    position: absolute;
+    bottom: 200px;
+    left: 16px;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--color2);
+    color: var(--colorbranca);
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+}
+
+.card-body button:hover {
+    background-color: var(--color3);
+}
+
+.card-body a {
+    color: var(--colorbranca);
+}
+
+.card:hover button {
+    opacity: 1;
+}
+
+.igredientes ul li {
+    line-height: 30px;
+}
+
+.igredientes ul li strong {
+    background-color: var(--color3);
+    border-radius: 5px;
+    padding: 1px 5px;
+}
+
+/* estilizando minha página about.html */
+
+.iamage img {
+    border-radius: 50%;
+    width: 200px;
+    transition: ease-in-out 0.3s;
+    overflow: hidden;
+}
+
+.profile {
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.iamage img:hover {
+    transform: scale(1.1);
+}
+
+.texto {
+    font-family: var(--font-text);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.title, .paraphase h2 {
+    padding: 50px 0px 20px 0px;
+}
+
+.texto {
+    padding-left: 50px;
+    line-height: 40px;
+}
+
+.texto strong {
+    text-transform: uppercase;
+    font-family: var(--font-text);
+    color: var(--color4);
+    background-color: var(--color1);
+    padding: 1px 5px;
+}
+
+.texto a {
+    background-color: var(--color2);
+    color: var(--colorbranca);
+    padding: 3px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Adicionando Emojis com o código delas de https://emojipedia.org/ */
+
+.texto a::after {
+    content: '\00A0\1F517';
+}
+
+.texto a:hover {
+    background-color: var(--color4);
+    text-decoration: underline;
+}
+
+.h3 {
+    margin-top: 45px;
+    padding: 30px 0px;
+}
+
+.thanks {
+    padding: 30px 5px;
+    background-color: var(--color5);
+    color: var(--colorbranca);
+    font-family: var(--font-text);
+    border-radius: 10px;
+}
+
+/* Estilizando form.html */
+
+.form-container {
+    border: 2px solid var(--color5);
+    border-radius: 5px;
+    background-color: var(--color3);
+    font-family: var(--font-text);
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.375);
+}
+
+.form label {
+    font-size: 1.4rem;
+    padding-top: 20px;
+    color: var(--colorbranca);
+}
+
+form input {
+    padding: 10px 0px;
+    outline: none;
+    border: none;
+    transition: ease-in-out 0.3s;
+}
+
+.form input:focus {
+    border-radius: 10px;
+}
+
+textarea {
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+    transition: ease-in-out 0.3s;
+    resize: none;
+}
+
+textarea:focus {
+    border-radius: 10px;
+}
+
+.form button {
+    border: 3px solid var(--colorbranca);
+    background-color: transparent;
+    padding: 10px;
+    transition: ease-in-out 0.3s;
+    color: var(--colorbranca);
+}
+
+.form button:hover {
+    border-radius: 10px;
+    background-color: var(--colorbranca);
+    color: black;
+}
+
+/* Estilizando o obrigado.html */
+
+.obrigado {
+    font-family: var(--font-text);
+    color: var(--colorbranca);
+    height: 87vh;
+    position: relative;
+}
+
+.obrigado-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.obrigado-container h1 {
+    font-size: 4rem;
+}
+
+.obrigado-container p a {
+    color: var(--color5);
+    padding: 5px;
+    border-radius: 5px;
+}
